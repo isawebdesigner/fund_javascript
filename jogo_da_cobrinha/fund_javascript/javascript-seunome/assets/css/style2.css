@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* Folha de estilo para os exercicios de JavaScript */
+/* 
+paleta de cores deste site:
+#f9f871 //titulo claro
+#2f4858 //footer
+#265667 // fundo escuro
+#136473 //fundo escuro medio
+#00737a //nav
+#00817d //fundo escuro claro 
+#008f7a //petrolio
+#007ec3 //azul escuro
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* background-image: linear-gradient(to bottom,#00bad3 50%, #00728a 100%);
+    background-repeat: repeat; */
+    background-image: linear-gradient(to bottom, #265667 50%, #00817d 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+header {
+
+    /* background-color: #00728a; */
+    /* border-color: #00bad3; */
+    /* border: solid #0096af 3px; */
+    padding: 7px;
+    height: 135px;
+    border-radius: 15px;
+}
+
+h1 {
+
+    font-size: 30px;
+    text-align: right;
+    color: #f9f871;
+}
+
+nav {
+
+    /* background-color: #00728a; */
+    /* border-color: #00bad3; */
+    /* border: solid #0096af 3px; */
+    padding: 7px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+
+    /* background-color: #0096af; */
+    /* height: auto; */
+    /* border-color: #00bad3; */
+    /* border: solid #0096af 3px; */
+    padding: 7px;
+    height: 100%;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+
+/* .content h2 {
+} */
+
+.content p {
+    align-items: flex-start;
+    text-align: justify;
+    flex: 2;
+
+}
+
+.content img {
+    width: auto;
+    margin-left: 7px;
+    margin-right: 20px;
+}
+
+footer {
+
+    padding: 7px;
+    height: 85px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #2f4858;
+    /* border-color: #00bad3; */
+    /* border: solid #0096af 3px; */
+
+
+}
+
+/* id */
+
+
+/* class */
